@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700');
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 2;
+}
+img {
+    max-width: 100%;
+}
+
+.large-height {
+    min-height: 80vh;
+}
+.smaller-height {
+    min-height: 60vh;
+}
+.hero {
+    min-height: calc(100vh - 63px);
+}
+.btn-cta {
+    padding: 0.8rem 1.5rem;
+    border-radius: 50px;
+}
+.btn-color{
+    background-color: white;
+    color:#329BFF;
+}
+p {
+    color: #606060;
+    font-size: 1.1rem;
+}
+.h-color{
+    color:#329BFF;
+}
+.h4-color{
+    color:#329BFF;
+}
+
+
+
+#section2 img{
+    max-width: 500px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+/* .section2{
+    padding-left: 120px;
+} */
+.header{
+    text-align: center;
+}
+.hero svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    height: 50vw;
+}
+
+.hero h3 {
+    font-size: 5rem;
+}
+
+.container {
+    width: 90% !important;
+    max-width: none !important;
+}
+@media (max-width: 767px) {
+    .container {
+        width: 100% !important;
+    }
+}
+.icon {
+    height: 65px;
+}
+
+ul li{
+    list-style: none;
+    padding-top: 8px;
+}
+
+footer {
+    padding-top: 180px;
+}
+
+#section2 {
+
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #2e1447;
+    font-size: 16px;
+}
+
+.bg {
+    position: absolute;
+    bottom: -100px;
+    z-index: -1;
+    transform: skewY(16deg);
+}
+
+.h6-color{
+   color: #606060;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+@media (max-width: 767px)  {
+    h2 {
+        font-size: 2rem;
+    }
+}
+#how-it-works {
+    background: url('../img/shape-3.png') no-repeat center;
+}
+.f-section{
+    background: url('../img/footer.png') no-repeat center;
+    background-size: cover;
+}
+.img-top {
+    width: 200px;
+}
+
+.btn-shadow {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.expandable {
+    display: none;
+}
+.less {
+    display: none;
+}
+.triangle-bg {
+    position: absolute;
+    left: 0;
+    bottom: -65px;
+    z-index: -1;
+}
+
+@media (max-width: 1159px) {
+    .triangle-bg, .bg {
+        display: none;
+    }
+}
+
+.panel-title a{
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.pricing-section {
+    min-height: 250px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(33, 37, 41);
+}
+
+a :hover{
+  text-decoration: none;
+  color: rgb(33, 37, 41);
+}
+ol {
+    padding-left: 10px;
+}
